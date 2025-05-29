@@ -74,11 +74,13 @@ Version: 1.0
     padding: 0
 }
 body{
-	font-family: "arial",serif;
+	font-family: "arial";
+	font-weight: bold;
 	color:#6d6d6d;
 }	
 h1, h2, h3, h4, h5, h6 {
-    font-weight: normal;
+    font-weight: bold;
+	font-weight: bold;
     margin: 0;	
 	color:#3a3d42;
 	font-family: 'Bitter', serif;
@@ -219,7 +221,7 @@ h2.left-title a:hover{
 }
 h2.center-title{
 	border-top: 1px solid #f04e46;
-	color: #14181f;
+	color: #ffffff;
 	display: block;
 	font-weight:400;
 	font-size:18px;
@@ -689,6 +691,7 @@ input.search-form[placeholder]:-ms-input-placeholder {
 	color: #fff;
 	display: block;
 	font-family: 'Bitter', serif;
+	font-weight: bold;
 	font-size: 14px;
 	line-height: 55px;
 	padding: 0 20px;
